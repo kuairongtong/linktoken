@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./web3.min.js"></script>
+</head>
+<body>
+    <p>转赠地址</p>
+    <p><input id="to_address" size="80" value="0x27124eb80016fe852d23c87ffe02f7832357e31f"/></p>
+    <p>转赠数量</p>
+    <p><input id="to_num" size=80 value="0.1"/></td></p>
+    <p>服务编号</p>
+    <p><input id="server_id" size=80 value="100132"/></p>
+    <p>标题</p>
+    <input id="title" size="80" size=80 value="开心问答"/>
+    <p>描述</p>
+    <input id="desc" size="80" value="合约执行-开心问答-出题"/>
+    <p></p>
+    <p>合约数据</p>
+    <p><textarea id="data" cols="80" rows="5">0xe615b42d87ce9fb076e206b40a6ab86e39ba8d0097abec87a8fa990c91a1d0b9269835aec89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6</textarea>
+    </p>
+    <p></p>
+    <p><button id="send">执行合约</button></p>
+</body>
+<script>
+window.linktoken.currentProvider.publicConfigStore.on('update', function(){alert(JSON.stringify(arguments))});
+
+window.web3 = new Web3(new Web3.providers.HttpProvider("http://test-linktoken.krtnt.com"))
+document.getElementById("send").onclick = function () {
+
+    if (!window.linktoken) {
+        alert("linktoken 不存在");
+        return;
+    }
+
+    
+
+    if (!linktoken.eth.defaultAccount) {
+      alert("你还未解锁或选择账号");
+      return;
+    }
+    
+
+    var to_num      = document.getElementById("to_num").value;
+    var title       = document.getElementById("title").value;
+    var desc        = document.getElementById("desc").value;
+    var server_id   = document.getElementById("server_id").value;
+    var data        = document.getElementById("data").value;
+
+
+    var query = "data=" + data + '&' + 
+              "desc=" + desc + '&' + 
+              "title=" + title  + '&' + 
+              "value=" + to_num
+        query += '&rnd=' + (+ new Date())
+
+    fetch("http://api.wkc.megole.com/api/get_tx_data?" + query  ,{
+        method:'GET',
+        mode: 'cors',
+        credentials: 'same-origin', 
+    })
+    .then(resp => resp.json())
+    .then(predata => {
+
+        if ( !predata.gas_limit) {
+            alert("获取数据失败");
+            return
+        }
+
+        predata.gas_limit = parseInt(predata.gas_limit)
+
+        var to_address = predata.to
+        var num        = linktoken.toHex(predata.value)
+        let txParams = {
+            from: linktoken.eth.defaultAccount,
+            to: to_address,
+            value: num,
+            gas:predata.gas_limit,
+            gasPrice: '0x174876e800',
+            data: predata.data,
+            extension: predata
+        };
+
+        linktoken.eth.sendTransaction(txParams,console.log)
+        
+    }).catch(console.err)
+}
+</script>
+</html>

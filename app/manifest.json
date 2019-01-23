@@ -1,0 +1,88 @@
+{
+  "name": "__MSG_appName__",
+  "short_name": "__MSG_appName__",
+  "version": "1.0.6",
+  "manifest_version": 2,
+  "author": "https://linktoken.krtnt.com",
+  "description": "__MSG_appDescription__",
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Alt+Shift+M",
+        "mac": "Alt+Shift+M",
+        "chromeos": "Alt+Shift+M",
+        "linux": "Alt+Shift+M"
+      }
+    }
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "linker.kuairongtong@gmail.com"
+    }
+  },
+  "default_locale": "zh_CN",
+  "background": {
+    "scripts": [
+      "chromereload.js",
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon-19.png",
+      "38": "images/icon-38.png"
+    },
+    "default_title": "Linker",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "file://*/*",
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "contentscript.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "*://connect.trezor.io/*/popup.html"
+      ],
+      "js": [
+        "vendor/trezor/content-script.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "clipboardWrite",
+    "http://localhost:8545/",
+    "https://*.infura.io/",
+    "activeTab",
+    "webRequest",
+    "*://*.eth/",
+    "notifications"
+  ],
+  "web_accessible_resources": [
+    "lkpage.js",
+    "phishing.html"
+  ],
+  "externally_connectable": {
+    "matches": [
+      "https://linktoken.krtnt.com/*"
+    ],
+    "ids": [
+      "*"
+    ]
+  }
+}

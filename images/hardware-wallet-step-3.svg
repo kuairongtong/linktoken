@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="85px" viewBox="0 0 108 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>hardware-wallet-step-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hardware-wallet-step-3" transform="translate(1.000000, -8.000000)">
+            <g id="Group-3" transform="translate(0.000000, 14.000000)">
+                <path d="M96.2021481,78 L9.79785192,78 C7.70080469,78 6,76.2922121 6,74.1851351 L6,3.81486493 C6,1.70778787 7.70080469,0 9.79785192,0 L96.2021481,0 C98.2998283,0 100,1.70778787 100,3.81486493 L100,74.1851351 C100,76.2922121 98.2998283,78 96.2021481,78" id="Fill-12" fill="#FEFEFE" fill-rule="nonzero"></path>
+                <path d="M96.2021481,78 L9.79785192,78 C7.70080469,78 6,76.2922121 6,74.1851351 L6,3.81486493 C6,1.70778787 7.70080469,0 9.79785192,0 L96.2021481,0 C98.2998283,0 100,1.70778787 100,3.81486493 L100,74.1851351 C100,76.2922121 98.2998283,78 96.2021481,78 Z" id="Stroke-13" stroke="#3098DC"></path>
+                <path d="M104.729634,78 L1.27036631,78 C0.568488923,78 0,77.4502457 0,76.7714988 L0,72.2285012 C0,71.5497543 0.568488923,71 1.27036631,71 L104.729634,71 C105.430876,71 106,71.5497543 106,72.2285012 L106,76.7714988 C106,77.4502457 105.430876,78 104.729634,78" id="Fill-14" fill="#D9F0FF" fill-rule="nonzero"></path>
+                <path d="M104.729634,78 L1.27036631,78 C0.568488923,78 0,77.4502457 0,76.7714988 L0,72.2285012 C0,71.5497543 0.568488923,71 1.27036631,71 L104.729634,71 C105.430876,71 106,71.5497543 106,72.2285012 L106,76.7714988 C106,77.4502457 105.430876,78 104.729634,78 Z" id="Stroke-15" stroke="#3098DC"></path>
+                <polygon id="Fill-16" fill="#FEFEFE" fill-rule="nonzero" points="10 66 96 66 96 5 10 5"></polygon>
+                <polygon id="Stroke-17" stroke="#3098DC" points="10 66 96 66 96 5 10 5"></polygon>
+                <rect id="Rectangle-2" stroke="#3098DC" fill="#FFFFFF" fill-rule="nonzero" x="14.5" y="9.5" width="77" height="53" rx="2"></rect>
+                <path d="M14.5,16.5 L91.5,16.5 L91.5,11 C91.5,10.1715729 90.8284271,9.5 90,9.5 L16,9.5 C15.1715729,9.5 14.5,10.1715729 14.5,11 L14.5,16.5 Z" id="Rectangle-3" stroke="#3098DC" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <g id="Group-6" transform="translate(17.000000, 12.000000)" fill="#D9F0FF" fill-rule="nonzero" stroke="#3098DC">
+                    <circle id="Oval-2" cx="1" cy="1" r="1"></circle>
+                    <circle id="Oval-2" cx="5.76923077" cy="1" r="1"></circle>
+                    <circle id="Oval-2" cx="10.5384615" cy="1" r="1"></circle>
+                </g>
+                <g id="metamask-outline" transform="translate(83.000000, 12.000000)">
+                    <g id="Group-6"></g>
+                </g>
+            </g>
+            <g id="LOGIN-WITH-METAMASK" transform="translate(24.000000, 0.000000)" fill="#3098DC" font-family="Helvetica" font-size="10" font-weight="normal">
+                <text id="LOGIN-WITH">
+                    <tspan x="0.4951172" y="52">LOGIN WITH</tspan>
+                </text>
+                <text id="LINKER">
+                    <tspan x="6.4960938" y="65">LINKER</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(77.000000, 9.000000)" fill-rule="nonzero">
+                <polygon id="Path-7" stroke="#3098DC" fill="#FFFFFF" points="0.88998999 0 0 8.16606404 2.99880873 14.1819831 6.83919671 17.7962575 5.37979024 20.2135471 6.33767333 26.6084868 8.55266034 31.2323021 12.368647 35.534068 16.0251332 35.534068 19.6313554 31.2323021 22.0702145 26.6084868 23.4554238 20.2135471 21.7653472 17.7962575 26.0225398 14.1819831 28.7781141 8.16606404 27.9929157 0 21.3866218 2.97283223 17.5562702 6.91535506 16.0251332 12.1059302 12.368647 12.1059302 10.9412378 6.91535506 7.49652622 2.97283223"></polygon>
+                <rect id="Rectangle-2" stroke="#3098DC" x="8.5" y="21.5" width="3" height="2"></rect>
+                <polygon id="Triangle" fill="#3098DC" transform="translate(14.000000, 28.500000) scale(1, -1) translate(-14.000000, -28.500000) " points="14 28 17 29 11 29"></polygon>
+                <rect id="Rectangle-2-Copy" stroke="#3098DC" x="16.5" y="21.5" width="3" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

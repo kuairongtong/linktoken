@@ -1,0 +1,3 @@
+Dear Linker Users,
+
+There have been several instances of high-profile legitimate websites such as BTC Manager and Games Workshop that have had their websites temporarily compromised. This involves showing a fake Linker window on the page asking for user's seed phrases. Linker will never open itself to ask you for your seed phrase, and users are encouraged to report these instances immediately to either our phishing blacklist or our support email at support@krtnt.com.

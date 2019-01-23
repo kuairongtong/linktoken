@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="22px" viewBox="0 0 60 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>mm-secure</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mm-secure">
+            <text id="Linker-Secure" font-family="Archivo-SemiBold, Archivo" font-size="10" font-weight="500" fill="#A2A4AC">
+                <tspan x="27" y="9">Linker</tspan>
+                <tspan x="27" y="20">Secure</tspan>
+            </text>
+            <path d="M0,2.65498 L0,8.69867 C0,14.9252 4.19995,20.1981 10,22 C15.7999,20.1981 20,14.9252 20,8.69867 L20,2.65498 L10,0 L0,2.65498 Z" id="Shape" fill="#A2A4AC"></path>
+            <g id="Group-4-Copy" transform="translate(4.000000, 4.000000)" fill-rule="nonzero">
+                <polygon id="Path-7" fill="#FFFFFF" points="0.371111179 0 0 3.4471415 1.25045389 5.98664208 2.85183248 7.51233614 2.243284 8.53274685 2.64270548 11.2322434 3.56631861 13.1840951 5.15752223 15 6.68221682 15 8.18595215 13.1840951 9.34988025 11.2322434 9.78052574 8.53274685 9.07579161 7.51233614 10.8509709 5.98664208 12 3.4471415 11.6725852 0 8.91786934 1.254922 7.32067575 2.91917958 6.68221682 5.11027763 5.15752223 5.11027763 4.56231612 2.91917958 3.12592807 1.254922"></polygon>
+                <rect id="Rectangle-2" fill="#A2A4AC" x="4" y="9" width="1" height="1"></rect>
+                <polygon id="Triangle" fill="#A2A4AC" transform="translate(6.000000, 12.500000) scale(1, -1) translate(-6.000000, -12.500000) " points="6 12 7 12.5 5 12.5"></polygon>
+                <rect id="Rectangle-2-Copy" fill="#A2A4AC" x="7" y="9" width="1" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="17px" viewBox="0 0 28 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>eth</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eth" transform="translate(14.000000, 8.500000) rotate(-180.000000) translate(-14.000000, -8.500000) " fill="#3A3A38" fill-rule="nonzero">
+            <polygon id="Path-2" points="5.99378679 0 0 8.20899601 5.99378679 17 13.9395211 17 17 8.5 11.6001071 8.5 10.1863072 12.4767953 9.20521367 12.4767953 5.43176408 8.5 9.20521367 5.48178886 9.20521367 0"></polygon>
+            <polygon id="Path-2-Copy" transform="translate(20.000000, 8.500000) scale(-1, -1) translate(-20.000000, -8.500000) " points="17.7497914 0 12 8.20899601 17.7497914 17 25.3720702 17 28 9.53189115 22.8199263 9.53189115 21.7716424 12.4767953 20.8304873 12.4767953 17.2106475 8.5 20.8304873 5.48178886 20.8304873 0"></polygon>
+        </g>
+    </g>
+</svg>

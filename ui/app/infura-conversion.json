@@ -1,0 +1,26 @@
+{
+  "objects": [
+    {
+      "symbol": "cnyusd",
+      "base": {
+        "code": "wkc",
+        "name": "Link Token"
+      },
+      "quote": {
+        "code": "cny",
+        "name": "China Yuan"
+      }
+    },
+    {
+      "symbol": "wkcusd",
+      "base": {
+        "code": "wkc",
+        "name": "Link Token"
+      },
+      "quote": {
+        "code": "usd",
+        "name": "United States Dollar"
+      }
+    }
+  ]
+}
